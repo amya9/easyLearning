@@ -1,0 +1,490 @@
+Skip to content
+Features
+Business
+Explore
+Marketplace
+Pricing
+
+Search
+
+Sign in or Sign up
+0 0 1 shiv-jetwal90/webpage
+ Code  Issues 0  Pull requests 0  Projects 0  Insights
+Join GitHub today
+GitHub is home to over 28 million developers working together to host and review code, manage projects, and build software together.
+
+webpage/index.html
+ecd49f7  on Mar 24
+@shiv-jetwal90 shiv-jetwal90 Update index.html
+     
+458 lines (391 sloc)  19.6 KB
+ <!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="author" content="M_Adnan" />
+<!-- Document Title -->
+<title>Jetwal</title>
+
+
+<!-- FontsOnline -->
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+
+<!-- StyleSheets -->
+<link rel="stylesheet" href="css/ionicons.min.css">
+<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+<script src="https://use.fontawesome.com/bf3ce4ee85.js"></script>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+
+<!-- COLORS -->
+<link rel="stylesheet" id="color" href="css/default.css">
+
+<!-- JavaScripts -->
+<script src="js/vendors/modernizr.js"></script>
+</head>
+<body>
+
+<!-- LOADER ===========================================-->
+<div id="loader">
+  <div class="loader">
+    <div class="position-center-center">
+      <p class="font-crimson text-center">Please Wait...</p>
+      <div class="loading">
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Page Wrapper -->
+<div id="wrap"> 
+  
+  <!-- Header -->
+  <header class="header single-pages">
+    <div class="sticky dark-header">
+      <div class="container">
+        <!--<div class="logo"> <a href="index.html"><img src="images/logo.png" alt=""></a> </div> -->
+        
+        <!-- Nav -->
+        <nav>
+          <ul id="ownmenu" class="ownmenu">
+            <li class="scroll active"><a href="index.html#wrap">HOME</a></li>
+            <li class="scroll"><a href="index.html#about">ABOUT</a></li>
+            <li class="scroll"><a href="index.html#portfolio">Projects</a></li>
+            <li class="scroll"><a href="index.html#contact">CONTACT</a></li>
+            <li class="scroll"><a href="index.html#lang">Frameworks</a></li>
+            
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- End Header --> 
+  
+  <!--======= HOME MAIN SLIDER =========-->
+  <section class="home-slider">
+    <div class="tp-banner-container">
+      <div class="tp-banner">
+        <ul>
+          <!-- SLIDE  -->
+          <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" > 
+            <!-- MAIN IMAGE --> 
+            <img src="images/sliders/04.jpg"  alt="slider"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+            <!-- LAYERS --> 
+            
+            
+            <!-- LAYER NR. 2 -->
+            <div class="tp-caption biglargetext sfr tp-resizeme" 
+                data-x="center" data-hoffset="0" 
+                data-y="center" data-voffset="40" 
+                data-speed="500" 
+                data-start="1500" 
+                data-easing="Power3.easeInOut" 
+                data-splitin="chars" 
+                data-splitout="none" 
+                data-elementdelay="0.07" 
+                data-endelementdelay="0.1" 
+                data-endspeed="300" 
+                style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">Hi, I Am Shiv Jetwal</div>
+            
+            <!-- LAYER NR. 3 -->
+            <div class="tp-caption font-crimson font-italic sfb tp-resizeme" 
+                data-x="center" data-hoffset="0" 
+                data-y="center" data-voffset="140" 
+                data-speed="500" 
+                data-start="1900" 
+                data-easing="Power3.easeInOut" 
+                data-splitin="none" 
+                data-splitout="none" 
+                data-elementdelay="0.1" 
+                data-endelementdelay="0.1" 
+                data-endspeed="300" 
+                style="z-index: 7; font-size:36px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">An Opensource Developer</div>
+            
+            <!-- LAYER NR. 4 -->
+            <div class="tp-caption lfb tp-scrollbelowslider" 
+                data-x="center" data-hoffset="0" 
+                data-y="bottom" data-voffset="-50" 
+                data-speed="500" 
+                data-start="2400" 
+                data-easing="Power3.easeInOut" 
+                data-elementdelay="0.1" 
+                data-endelementdelay="0.1" 
+                data-endspeed="300" 
+                data-scrolloffset="0"
+                style="z-index: 8;"><img src="images/sliders/6/enter.png" alt=""> </div>
+          </li>
+          <!-- SLIDE  -->
+          <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" > 
+            <!-- MAIN IMAGE --> 
+            <img src="images/sliders/02.jpg"  alt="home_slider2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+            <!-- LAYERS --> 
+            
+            <!-- LAYER NR. 1 -->
+            <div class="tp-caption sfb tp-resizeme" 
+                data-x="center" data-hoffset="0" 
+                data-y="center" data-voffset="-170" 
+                data-speed="600" 
+                data-start="1000" 
+                data-easing="Power3.easeInOut" 
+                data-splitin="chars" 
+                data-splitout="none" 
+                data-elementdelay="0.07" 
+                data-endelementdelay="0.1" 
+                data-endspeed="300" 
+                style="z-index: 5; font-size:40px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">Welcome To My Webpage </div>
+            
+            <!-- LAYER NR. 2 -->
+            <div class="tp-caption font-crimson font-italic sfb tp-resizeme" 
+                data-x="center" data-hoffset="0" 
+                data-y="center" data-voffset="-100" 
+                data-speed="600" 
+                data-start="2500" 
+                data-easing="Power3.easeInOut" 
+                data-splitin="none" 
+                data-splitout="none" 
+                data-elementdelay="0.1" 
+                data-endelementdelay="0.1" 
+                data-endspeed="300" 
+                style="z-index: 6; font-size:24px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">Checkout My Github Profile! </div>
+            
+            <!-- LAYER NR. 4 -->
+            <div class="tp-caption sfb" 
+                data-x="center" data-hoffset="0" 
+                data-y="center" data-voffset="150" 
+                data-speed="500" 
+                data-start="3300" 
+                data-easing="Power3.easeInOut" 
+                data-elementdelay="0.1" 
+                data-endelementdelay="0.1" 
+                data-endspeed="300" 
+                style="z-index: 8;"><a href="https://github.com/shiv-jetwal90"><img src="images/sliders/1/IMAC2.JPG" alt=""> </a></div>
+            
+            <!-- LAYER NR. 6 -->
+           
+          </li>
+          <!-- SLIDE  -->
+          <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" > 
+            <!-- MAIN IMAGE --> 
+            <img src="images/sliders/03.jpg"  alt="home_slider3"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+            <!-- LAYERS --> 
+            
+            <!-- LAYER NR. 1 -->
+            <div class="tp-caption font-bold skewfromright tp-resizeme" 
+                data-x="center" data-hoffset="0" 
+                data-y="center" data-voffset="-60" 
+                data-speed="300" 
+                data-start="1000" 
+                data-easing="Power3.easeInOut" 
+                data-splitin="chars" 
+                data-splitout="none" 
+                data-elementdelay="0.1" 
+                data-endelementdelay="0.1" 
+                data-endspeed="300" 
+                style="z-index: 5; font-size:60px; color:#ff0; max-width: auto; max-height: auto; white-space: nowrap;">Love Football! </div>
+            
+            <!-- LAYER NR. 2 -->
+            <div class="tp-caption font-crimson font-italic sfb tp-resizeme" 
+                data-x="center" data-hoffset="0" 
+                data-y="center" data-voffset="10" 
+                data-speed="500" 
+                data-start="2100" 
+                data-easing="Power3.easeInOut" 
+                data-splitin="none" 
+                data-splitout="none" 
+                data-elementdelay="0.1" 
+                data-endelementdelay="0.1" 
+                data-endspeed="300" 
+                style="z-index: 6; font-size:50px; color:#000; max-width: auto; max-height: auto; white-space: nowrap;">He is My Favourite </div>
+            
+           
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Content -->
+  <div id="content"> 
+    
+    <!-- Welcome -->
+    <section id="about" class="welcome padding-top-80">
+      <div class="container">
+        <div class="row"> 
+          
+          <!-- Intro Image -->
+         
+          <!-- Intro Text -->
+          <div>
+            <div class="heading-block no-margin"> 
+              <h2 class="margin-bottom-30 animate fadeInDown" data-wow-delay="0.5s">Welcome</h2>
+            </div>
+            <p class="animate fadeIn" data-wow-delay="0.5s">I am Shiv JETWAL presently pursuing BTech From National Institute Of Information Technology UNA.I am a Webdeveloper and have made some handful of projects using various frameworks.I am From AJMER(RAJASTHAN).I am a member of the ORGANISATION CLUB of IIITU.</p>
+            
+            
+        </div>
+      </div>
+    </section>
+    
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="portfolio port-wrap padding-top-80">
+      <div class="container"> 
+        <!-- MAIN HEADING -->
+        <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+          <h3>My Projects</h3>
+          <div class="divider divider-short divider-center"><img class="i-div" src="images/divider/hammers.png" alt="Divider Icon Image"/></div>
+          <span>My Awesome Works</span> </div>
+        
+        <!-- Work Filter -->
+       
+      </div>
+      
+      <!-- PORTFOLIO ITEMS -->
+      <div class="items row col-3 animate fadeInUp" data-wow-delay="0.4s"> 
+        
+        <!-- ITEM -->
+        <article class="portfolio-item pf-branding-design">
+          <div class="portfolio-image"> <a href="index.html#."> <img alt="Open Imagination" src="images/my/competitive.png"> </a> </div>
+          <div class="portfolio-overlay">
+            <div class="position-center-center"> <span><a href="https://github.com/shiv-jetwal90/competetive-codes.github.io">Competitive Programming Codes</a></span>
+            </div>
+          </div>
+        </article>
+        
+        <!-- ITEM -->
+        <article class="portfolio-item pf-branding-design">
+          <div class="portfolio-image"> <a href="index.html#."> <img alt="Open Imagination" src="images/my/hello_world1.gif"> </a> </div>
+          <div class="portfolio-overlay">
+            <div class="position-center-center"> <span><a href="https://github.com/shiv-jetwal90/hello-world">Hello World</a></span>
+         </div>
+          </div>
+        </article>
+        
+        <!-- ITEM--> 
+        <article class="portfolio-item pf-branding-design">
+          <div class="portfolio-image"> <a href="index.html#."> <img alt="Open Imagination" src="images/my/bst.png"> </a> </div>
+          <div class="portfolio-overlay">
+            <div class="position-center-center"> <span><a href="https://github.com/shiv-jetwal90/bst">Binary Search Tree</a></span>
+            </div>
+          </div>
+        </article>
+      </div>
+      <br>
+    </section>
+    
+
+    <!-- FACTS -->
+    <section class="facts padding-top-90 padding-bottom-90" style="background-image: url('images/fact/bg-parallax-1.png')">
+      <div class="container">
+        <div class="row counter"> 
+          <!-- Team Member -->
+          <div class="col-md-3 margin-bottom-30 animate fadeInLeft" data-wow-delay="0.4s">
+            <div class="c-style-4 c-text-white"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="100" data-to="11" data-from="0">11</span> </span>
+              <h5>Repositories</h5>
+            </div>
+          </div>
+          
+          <!-- Line Of Codes -->
+          <div class="col-md-3 margin-bottom-30 animate fadeInLeft" data-wow-delay="0.8s">
+            <div class="counter c-style-4 c-text-white"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="100" data-to="0" data-from="0">0</span> </span>
+              <h5>Contributions</h5>
+            </div>
+          </div>
+          
+          <!-- Satisfied Client -->
+          <div class="col-md-3 columns margin-bottom-30 animate fadeInRight" data-wow-delay="0.4s">
+            <div class="counter c-style-4 c-text-white"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="100" data-to="3" data-from="0">3</span> </span>
+              <h5>Languages/Framework</h5>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+  
+    
+    <!-- Promo -->
+    <section class="promo dark">
+      <div class="container">
+        <center><h3 class="font-crimson text-white font-italic animate fadeInLeft" data-wow-delay="0.4s">Don't Just<span class="text-color-primary"> Exist </span> Live</h3></center>
+         </section>
+    
+   
+    
+    <!-- Contact Us -->
+    <section id="contact" class="contact padding-top-90">
+      <div class="container"> 
+        
+        <!-- Main Heading  -->
+        <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+          <h3>Get In Touch</h3>
+          <div class="divider divider-short divider-center"><img class="i-div" src="images/divider/hammers.png" alt="Divider Icon Image"/></div>
+          <span>Details </span> </div>
+      </div>
+      
+      <!-- Contact  -->
+      <div class="padding-top-80 padding-bottom-80 bg-parallax" style="background-image: url('images/contact/contact-1.png')">
+        <div class="container">
+          <div class="row"> 
+            
+            <!-- Phone Number  -->
+            <div class="col-md-4 animate fadeInUp" data-wow-delay="0.4s">
+              <div class="icon-box ib-style-1 ib-circle ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-text-alt i-xlarge">
+                <div class="ib-icon"> <i class="fa fa-mobile text-primary"></i> </div>
+                <div class="ib-info text-white">
+                  <p>+91 9982738788</p>
+                  
+                </div>
+              </div>
+            </div>
+            
+            <!-- Address -->
+            <div class="col-md-4 animate fadeInUp" data-wow-delay="0.6s">
+              <div class="icon-box ib-style-1 ib-circle ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-text-alt i-large">
+                <div class="ib-icon"> <i class="fa fa-map-marker text-primary"></i> </div>
+                <div class="ib-info text-white">
+                  <p>16119, Himadri Hostel</p>
+                  <p>IIITU</p>
+                  <p>Una,Himachal</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Email  -->
+            <div class="col-md-4 animate fadeInUp" data-wow-delay="0.8s">
+              <div class="icon-box ib-style-1 ib-circle ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-text-alt i-large">
+                <div class="ib-icon"> <i class="fa fa-envelope-o text-primary"></i> </div>
+                <div class="ib-info">
+                  <p class="no-margin-bottom"><a href="index.html#." class="text-white">sumitjetwal90@gmail.com</a></p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Parthner -->
+    <section id="lang" class="section-home section-parthner padding-top-80 padding-bottom-80">
+      <div class="container"> 
+        <!-- Main Heading -->
+        <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+          <h3>Languages/Frameworks</h3>
+          <div class="divider divider-short divider-center"><img class="i-div" src="images/divider/hammers.png" alt="Divider Icon Image"/></div>
+          <span>Not Speaking Languages -_-</span> </div>
+        <!-- Pathner Images -->
+        <ul class="animate fadeInUp" data-wow-delay="0.4s">
+          <li> <a href="index.html#.."> <img class="img-responsive" src="images/lang/cpp.png" alt="Our Partner Logo Image" /> </a> </li>
+        < <li> <a href="index.html#.."> <img class="img-responsive" src="images/lang/css.jpg" alt="Our Partner Logo Image" /> </a> </li>
+          <li> <a href="index.html#.."> <img class="img-responsive" src="images/lang/py.png" alt="Our Partner Logo Image" /> </a> </li>
+          <li> <a href="index.html#.."> <img class="img-responsive" src="images/lang/html.jpg" alt="Our Partner Logo Image" /> </a> </li>
+          <li> <a href="index.html#.."> <img class="img-responsive" src="images/lang/js.png" alt="Our Partner Logo Image" /> </a> </li>
+         </ul>
+      </div>
+    </section>
+  </div>
+  <!-- End Content --> 
+  
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="footer-wrapper"> 
+      
+      
+      
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="footer-bottom-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 copyright">
+                <p><font color="yellow">&copy; 2018 SP Creative.</font></p>
+              </div>
+              <div class="col-md-6 social-links">
+                <ul class="right">
+                  <li><a href="https://www.facebook.com/Shiv Jetwal"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://github.com/shiv-jetwal90"><i class="fa fa-github"></i></a></li>
+                  <li><a href="https://plus.google.com/sumitjetwal90"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="https://www.instagram.com/jetwal_shiv"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Footer Bottom --> 
+    </div>
+  </footer>
+  <!-- End Footer --> 
+  
+  <!-- GO TO TOP --> 
+  <a href="index.html#" class="cd-top"><i class="fa fa-angle-up"></i></a> 
+  <!-- GO TO TOP End --> 
+</div>
+<!-- End Page Wrapper --> 
+
+
+<!-- JavaScripts --> 
+<script src="js/vendors/jquery/jquery.min.js"></script> 
+<script src="js/vendors/wow.min.js"></script> 
+<script src="js/vendors/bootstrap.min.js"></script> 
+<script src="js/vendors/own-menu.js"></script> 
+<script src="js/vendors/flexslider/jquery.flexslider-min.js"></script> 
+<script src="js/vendors/jquery.countTo.js"></script> 
+<script src="js/vendors/jquery.isotope.min.js"></script> 
+<script src="js/vendors/jquery.bxslider.min.js"></script> 
+<script src="js/vendors/owl.carousel.min.js"></script> 
+<script src="js/vendors/jquery.sticky.js"></script> 
+<script src="js/vendors/color-switcher.js"></script> 
+
+<!-- SLIDER REVOLUTION 4.x SCRIPTS  --> 
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script> 
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script> 
+<script src="js/zap.js"></script>
+</body>
+</html>
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+Press h to open a hovercard with more details.
